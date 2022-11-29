@@ -1,0 +1,120 @@
+
+.dropbtn {
+    
+    color: black;
+    font-size: 16px;
+    margin-right:10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    color:green;
+  }
+ 
+.flex-container
+{
+  display: flex;
+    margin-top: 10px;
+    float:left;
+    width 10%;
+    border:1px;
+
+}
+.Sign-in
+{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+ margin-left: 1250px;;
+  text-align: right;
+  
+}
+.random
+{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.random:hover {
+  color:green;
+}
+
+    
+.image{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  width:10%;
+ 
+
+}
+.test{
+  margin-top: 100px ;
+  float:left;
+  width:33.3%;
+}
+.Read{
+  color:green;
+
+}
+.Read:hover
+{
+  font-style: italic;
+}
+.flexcontainer{
+  text-align: left;
+  margin-top:100px;
+}
+
+.item{
+  display: block;
+  border-style: dotted;
+  width:800px;
+  margin-top:10px ;
+}
+h1{
+  color: green;
+
+}
+.new 
+  img{
+  float:left;
+  width:20%;
+  box-sizing: border-box;
+}
+.item1
+{
+  display:block;
+}
+h4{
+  color:green;
+}
